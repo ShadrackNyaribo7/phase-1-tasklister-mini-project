@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // your code here
   const taskDescription = document.querySelector("#new-task-description");
 
-  taskDescription.addEventListener("click", checkboxClick, false);
+  taskDescription.addEventListener("click", submit, true);
 
 
   let warn = "preventDefault() this shall not pass!<br>";
